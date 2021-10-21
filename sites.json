@@ -1,76 +1,90 @@
 [
   {
-    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3080/",
-    "api": "https://api-prod.nvidia.com/direct-sales-shop/DR/products/en_us/USD/5438481700",
-    "keyword": "",
-    "alert": false,
-    "method": "GET_API",
-    "name": "Nvidia 3080",
-    "enabled": true
-  },
-  {
-    "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090/",
-    "api": "https://api-prod.nvidia.com/direct-sales-shop/DR/products/en_us/USD/5438481600,5443202600",
-    "keyword": "",
-    "alert": false,
-    "method": "GET_API",
-    "name": "Nvidia 3090",
-    "enabled": true
-  },
-  {
-    "url": "https://www.evga.com/products/productlist.aspx?type=0&family=GeForce+16+Series+Family&chipset=GTX+1650+Super",
-    "keyword": "AddCart",
-    "alert": true,
-    "method": "GET_URLLIB",
-    "name": "EVGATest",
-    "enabled": false
-  },
-  {
-    "url": "https://www.newegg.com/p/pl?d=rtx+3080&N=100007709%20601357247",
-    "keyword": "Add to cart",
-    "alert": true,
-    "method": "GET_URLLIB",
-    "name": "Newegg 3080",
-    "enabled": true
-  },
-  {
-    "url": "https://www.bhphotovideo.com/c/search?q=3080&filters=fct_category%3Agraphic_cards_6567",
-    "keyword": "Add to Cart",
-    "alert": true,
-    "method": "GET_URLLIB",
-    "name": "BandH 3080",
-    "enabled": true
-  },
-  {
-    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=3080",
-    "keyword": "cart.svg",
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=3070+ti&_dyncharset=UTF-8&_dynSessConf=&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys",
+    "keyword": "ADD_TO_CART",
     "alert": true,
     "method": "GET_SELENIUM",
-    "name": "BestBuy 3080",
+    "name": "BestBuy 3070ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?ref=186&loc=nvidia_site&skuId=6439402",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuy 3060ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3070-xc3-ultra-gaming-8gb-gddr6-pci-express-4-0-graphics-card-light-hash-rate/6479528.p?skuId=6479528",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA 30700ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3070-xc3-ultra-gaming-8gb-gddr6-pci-express-4-0-graphics-card-light-hash-rate/6477077.p?skuId=6477077",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA 30700ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-geforce-rtx-3070-xc3-ultra-gaming-8gb-gddr6-pci-express-4-0-graphics-card/6439299.p?skuId=6439299",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA 30700ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-nvidia-geforce-rtx-3060-ti-ftw3-gaming-8gb-gddr6-pci-express-4-0-graphics-card/6444444.p?skuId=6444444",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA 30600ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/evga-nvidia-geforce-rtx-3060-ti-ftw3-gaming-8gb-gddr6-pci-express-4-0-graphics-card-lhr/6479524.p?skuId=6479524",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA 3060ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?st=3060+ti&_dyncharset=UTF-8&_dynSessConf=&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA all 3060ti",
+    "enabled": true
+  },
+  {
+    "url": "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=category_facet%3Dname~abcat0507002%5Egpusv_facet%3DGraphics%20Processing%20Unit%20(GPU)~NVIDIA%20GeForce%20RTX%203070%20Ti&st=3070+ti",
+    "keyword": "ADD_TO_CART",
+    "alert": true,
+    "method": "GET_SELENIUM",
+    "name": "BestBuyEVGA all 3070ti",
     "enabled": true
   },
   {
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=tv",
-    "keyword": "cart.svg",
+    "keyword": "ADD_TO_CART",
     "alert": true,
     "method": "GET_SELENIUM",
     "name": "BestBuyTest",
     "enabled": false
   },
   {
-    "url": "https://www.amazon.com/stores/page/6B204EA4-AAAC-4776-82B1-D7C3BD9DDC82?ingress=0",
-    "keyword": ">Add to Cart<",
+    "url": "https://www.bestbuy.com/site/bowflex-bxt216-treadmill-gray/6405025.p?skuId=6405025",
+    "keyword": "ADD_TO_CART",
     "alert": true,
-    "method": "GET_URLLIB",
-    "name": "Amazon 3080",
-    "enabled": true
-  },
-  {
-    "url": "https://store.asus.com/us/item/202009AM160000001",
-    "keyword": ">Buy Now<",
-    "alert": true,
-    "method": "GET_URLLIB",
-    "name": "ASUS",
+    "method": "GET_SELENIUM",
+    "name": "BestBuyTest",
     "enabled": false
   }
 ]
